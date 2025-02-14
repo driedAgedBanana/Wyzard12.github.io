@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function openModal(projectData) {
         // Set the modal content from projectData
         modalTitle.innerHTML = projectData.title;
-        textBoxTitle.innerHTML = projectData.textboxtitle || "Project Information";
+        textBoxTitle.innerHTML = projectData.textboxtitle || "Thông Tin Tổng Quát";
         modalText.innerHTML = projectData.description || "More information about the project goes here.";
         additionalBoxTitle.innerHTML = projectData.additionalboxtitle || "";
         additionalModalText.innerHTML = projectData.additionaltext || "";

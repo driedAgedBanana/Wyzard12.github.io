@@ -256,6 +256,13 @@ nav.menu {
     flex: 0 0 auto; /* Prevent growing/shrinking */
 }
 
+#language-flag {
+    width: 30px;  /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align it to the middle of its parent */
+    
+}
+
 /* Language Toggle (Flag Emoji) */
 .language-toggle {
     cursor: pointer;
@@ -364,7 +371,9 @@ nav.menu {
 @media (max-width: 768px) {
     header {
         padding: 1rem;
+        width: 90%;
     }
+
 
     .menu {
         margin-right: 1rem;

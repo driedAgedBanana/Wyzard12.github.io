@@ -126,10 +126,6 @@ header .logo, footer .logo {
     color: black;
 }
 
-header {
-    width: 90%;
-}
-
 header .logo {
     left: 15px;
 }
@@ -376,6 +372,7 @@ nav.menu {
 @media (max-width: 768px) {
     header {
         padding: 1rem;
+        width: 90%;
     }
 
     .menu {

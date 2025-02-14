@@ -467,7 +467,8 @@ header {
     }
     .main-caption h2 {
         font-size: 1.2rem; /* Smaller subtitle */
-    }    
+        margin-left: 10px;
+    }      
     .design-caption h3 {
         margin-top: 70%;
         margin-left: 14%;

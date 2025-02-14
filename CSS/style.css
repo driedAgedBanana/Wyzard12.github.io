@@ -126,6 +126,10 @@ header .logo, footer .logo {
     color: black;
 }
 
+header {
+    width: 90%;
+}
+
 header .logo {
     left: 15px;
 }
@@ -257,6 +261,13 @@ nav.menu {
     flex: 0 0 auto; /* Prevent growing/shrinking */
 }
 
+#language-flag {
+    width: 30px;  /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align it to the middle of its parent */
+    
+}
+
 /* Language Toggle (Flag Emoji) */
 .language-toggle {
     cursor: pointer;
@@ -279,7 +290,7 @@ nav.menu {
     top: 40px; /* Adjust based on toggle height */
     right: 0;
     background-color: white;
-    min-width: 160px;
+    min-width: 170px;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     border-radius: 5px;
     z-index: 1000;
@@ -418,6 +429,7 @@ header {
 .main-caption h2 {
     font-size: 2rem;
     margin-top: 20px;
+    margin-left: 10px;
 }
 
 /* Design Caption Styles */
